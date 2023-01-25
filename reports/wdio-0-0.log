@@ -1,0 +1,11 @@
+2023-01-24T08:19:39.459Z INFO @wdio/local-runner: Run worker command: run
+2023-01-24T08:19:39.471Z DEBUG @wdio/runner: init remote session
+2023-01-24T08:19:39.788Z DEBUG @wdio/runner: init remote session
+2023-01-24T08:19:39.791Z INFO webdriver: Initiate new session using the WebDriver protocol
+2023-01-24T08:19:39.792Z ERROR @wdio/runner: Error: Invalid or unsupported WebDriver capabilities found ("app"). Ensure to only use valid W3C WebDriver capabilities (see https://w3c.github.io/webdriver/#capabilities).If you run your tests on a remote vendor, like Sauce Labs or BrowserStack, make sure that you put them into vendor specific capabilities, e.g. "sauce:options" or "bstack:options". Please reach out to to your vendor support team if you have further questions.
+    at startWebDriverSession (file:///C:/Users/dlenka/Documents/Designer_Automation/wdio-winappdriver-example/node_modules/webdriver/build/utils.js:35:19)
+    at Function.newSession (file:///C:/Users/dlenka/Documents/Designer_Automation/wdio-winappdriver-example/node_modules/webdriver/build/index.js:24:51)
+    at remote (file:///C:/Users/dlenka/Documents/Designer_Automation/wdio-winappdriver-example/node_modules/webdriverio/build/index.js:48:43)
+    at async Runner._startSession (file:///C:/Users/dlenka/Documents/Designer_Automation/wdio-winappdriver-example/node_modules/@wdio/runner/build/index.js:221:29)
+    at async Runner._initSession (file:///C:/Users/dlenka/Documents/Designer_Automation/wdio-winappdriver-example/node_modules/@wdio/runner/build/index.js:187:25)
+    at async Runner.run (file:///C:/Users/dlenka/Documents/Designer_Automation/wdio-winappdriver-example/node_modules/@wdio/runner/build/index.js:77:19)

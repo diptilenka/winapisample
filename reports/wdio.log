@@ -1,0 +1,12 @@
+2023-01-24T08:19:37.545Z DEBUG winappdriver-service: spawn CLI process: c:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe 
+2023-01-24T08:19:37.573Z DEBUG winappdriv2023-01-24T08:19:37.574Z DEBUG @wdio/cli:utils:2023-01-24T08:19:37.573Z DEBUG winappdrive2023-01-24T08:19:37.575Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2023-01-24T08:19:37.575Z DEBUG @wdio/cli:utils: Finished to run "2023-01-24T08:19:39.928Z DEBUG winappdriver-service: WinAppDriver (pid: 24800) is killed
+ 0-0 with arg: wdio.conf.js
+2023-01-24T08:19:37.584Z DEBUG @wdio/local-runner: Send command run to worker with cid "0-0"
+2023-01-24T08:19:39.926Z DEBUG @wdio/local-runner: Runner 0-0 finished with exit code 1
+2023-01-24T08:19:39.927Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2023-01-24T08:19:39.927Z DEBUG @wdio/cli:utils: Finished to run "onWorkerEnd" hook in 0ms
+2023-01-24T08:19:39.927Z INFO @wdio/cli:launcher: Run onComplete hook
+2023-01-24T08:19:39.928Z DEBUG @wdio/cli:utils: Finished to run "onComplete" hook in 0ms
+2023-01-24T08:19:39.959Z INFO @wdio/local-runner: Shutting down spawned worker
+2023-01-24T08:19:40.224Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
