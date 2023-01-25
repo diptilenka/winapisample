@@ -9,13 +9,18 @@ exports.config = {
     port: 4723,
     capabilities: [
       {
-        app: "Microsoft.WindowsAlarms_8wekyb3d8bbwe!App",
-        "ms:experimental-webdriver": true,
-        browserName: "",
+        "appium:app": "Microsoft.WindowsAlarms_8wekyb3d8bbwe!App",
+        "platformName":"windows",
+        "appium:automationName":"windows",
+        "ms:experimental-webdriver": false,
+        "appium:browserName": "",
       },
     ],
     logLevel: "trace",
-    services: ["winappdriver"],
+    services: [["appium",{
+      command:"appium"
+    }]],
+    //services: ["winappdriver"],
     framework: "jasmine",
     outputDir: ".\\reports",
     reporters: ["dot", ["junit", { outputDir: ".\\reports" }]],

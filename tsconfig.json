@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
-        "types": ["node", "@wdio/sync", "@wdio/jasmine-framework"],
+        "types": ["node","@wdio/jasmine-framework"],
         "noEmit": true,
-        "target": "es6",
+        "target": "es5",
         "skipLibCheck": true
     },
     "include": [
