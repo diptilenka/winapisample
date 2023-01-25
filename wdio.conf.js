@@ -1,5 +1,5 @@
-
-export const config: WebdriverIO.Config  = {
+require('ts-node').register({ transpileOnly: true });
+exports.config = {
     runner: "local",
 
     specs: ["./test/specs/*.ts"],

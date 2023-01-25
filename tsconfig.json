@@ -1,11 +1,6 @@
 {
     "compilerOptions": {
-        "types": [
-        "node", 
-        "webdriverio/async",
-        "@wdio/jasmine-framework",
-        "expect-webdriverio",
-        "@wdio/devtools-service"],
+        "types": ["node", "@wdio/sync", "@wdio/jasmine-framework"],
         "noEmit": true,
         "target": "es6",
         "skipLibCheck": true
